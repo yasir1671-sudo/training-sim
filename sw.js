@@ -1,7 +1,7 @@
 /* عامل الخدمة: يجعل المحاكي تطبيقاً قابلاً للتثبيت ويعمل دون إنترنت (بالتخزين المحلي).
    index.html وfirebase-config.js من الشبكة أولاً (لتصل التحديثات فوراً)، ومن النسخة المحفوظة عند انقطاع الإنترنت.
    الخطوط ومكتبة Firebase تُحفظ عند أول تحميل. رقم النسخة يضعه build.py. */
-const VERSION = 'sim-bd0492123e';
+const VERSION = 'sim-f1e7c1e509';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
